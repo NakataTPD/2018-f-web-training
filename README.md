@@ -32,7 +32,7 @@ Webシステム試作を通して、Java言語を使用したWebシステム開�
 11. 結合テスト(フロントサイドの単体テストを含む) → `テスト仕様書、エビデンス`
 
 ## 開発環境について
- - 使用言語：`Java（ver.８以降）、Groovy、JavaScript（ES2015以降）、HTML5、CSS3`
+ - 使用言語：`Java（ver.8以降）、Groovy、JavaScript（ES2015以降）、HTML5、CSS3`
  - フレームワーク：`SpringBoot（ver.2以降）、Spock（ユニットテスト用）`
  - ORM：`MyBatis`
  - DB：`MySQL、H2`
