@@ -1,4 +1,4 @@
-# f-web-training
+# 2018-f-web-training
 このプロジェクトは、Webシステム開発の実習に使用します。
 
 ## 目的
