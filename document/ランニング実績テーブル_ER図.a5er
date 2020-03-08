@@ -1,0 +1,61 @@
+﻿# A5:ER FORMAT:13
+# A5:ER ENCODING:UTF8
+# A5:ER Mk-1 Copyright (C)2007 m.matsubara
+# A5:SQL Mk-2 Copyright (C)1997 m.matsubara
+#  https://a5m2.mmatsubara.com
+
+[Manager]
+ProjectName=ランニング実績情報
+Author=
+MaxEntityRowShow=1000
+ReadOnlyRecommend=0
+Page=Main
+PageInfo="Main",2,"A3Landscape",$FFFFFF
+LogicalView=1
+DecodeDomain=0
+ViewModePageIndividually=1
+ViewMode=2
+ViewFormat=0
+UseNondependenceDashLine=0
+FontName=Tahoma
+FontSize=10
+PaperSize=A4Landscape
+HeaderLeft=
+HeaderCenter=
+HeaderRight=
+FooterLeft=
+FooterCenter=
+FooterRight=
+ShowPageoutRelation=1
+RDBMSType=5
+RDBMSTypeName=MySQL
+DefaultPkName=%0:s_PKC
+DefaultPkIndexName=%0:s_PKI
+DefaultIndexName=%0:s_IX%1:d
+DefaultFkName=%0:s_FK%1:d
+SqlSeparator=0
+ShowTag=1
+ShowCommonAttributes=0
+
+[Entity]
+PName=JISSEKI_RUNNING
+LName=JISSEKI_RUNNING
+Comment=
+TableOption=
+Page=Main
+Left=300
+Top=250
+Field="シーケンスNo.","NO_SEQ","@INT","NOT NULL",0,"","",$00000000,""
+Field="ランニング日付","DATE_RUNNING","@DATE","NOT NULL",,"","",$FFFFFFFF,""
+Field="ランニング時間","TIME_RUNNING","@TIME","NOT NULL",,"","",$FFFFFFFF,""
+Field="ランニング距離","DISTANCE_RUNNING","@DOUBLE","NOT NULL",,"","",$FFFFFFFF,""
+Field="体重","WEIGHT","@DOUBLE",,,"","",$FFFFFFFF,""
+Field="体脂肪率","FAT","@DOUBLE",,,"","",$FFFFFFFF,""
+Field="基礎代謝","METABOLISM","@INT",,,"","",$FFFFFFFF,""
+EffectMode=None
+Tag=ランニング実績テーブル
+Color=$000000
+BkColor=$FFFFFF
+ModifiedDateTime=20200308165325
+Position="Main",300,250,436,574
+ZOrder=0
